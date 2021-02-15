@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivell 1 - Exercici 2</title>
+</head>
+
+<body>
+
+    <script>
+
+        // Arregla l'error del següent bloc de codi:
+
+
+        // users.map(function (user) {
+        //     user.firstName;
+        // });
+
+        // var users =
+        //     [{ firstName: 'Homer', lastName: 'Simpson' },
+        //     { firstName: 'Marge', lastName: 'Simpson' },
+        //     { firstName: 'Bart', lastName: 'Simpson' },
+        //     { firstName: 'Lisa', lastName: 'Simpson' },
+        //     { firstName: 'Maggie', lastName: 'Simpson' }];
+
+        const users = [
+            { firstName: 'Homer', lastName: 'Simpson' },
+            { firstName: 'Marge', lastName: 'Simpson' },
+            { firstName: 'Bart', lastName: 'Simpson' },
+            { firstName: 'Lisa', lastName: 'Simpson' },
+            { firstName: 'Maggie', lastName: 'Simpson' }
+        ];
+
+        // users.map(function (user) {
+            for ( const user of users ) {
+                console.log( user.firstName + " " + user.lastName );
+            }
+        // });
+
+
+    </script>
+</body>
+
+</html>

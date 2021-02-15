@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivell 1 - Exercici 3</title>
+</head>
+
+<body>
+
+    <script>
+
+        // Crear una funció que accepti un string i retornada aquest string revertit.Nota: Usar:
+        // funció fletxa(arrow functions)
+        // l'operador de prograpación (spread operator)
+        // y el mètode .reverse()
+
+        const texto = "Esto es una frase al revés";
+
+        const frase = (alReves) => {
+            return ([...alReves].reverse());
+        }
+
+        const uniendoArray = frase("Esto es una frase al revés");
+
+        console.log(uniendoArray.join(''));
+
+    </script>
+</body>
+
+</html>
